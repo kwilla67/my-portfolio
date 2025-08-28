@@ -82,16 +82,18 @@ h1 {
 /**ROW 2**/
 article {
 
+  max-width: 80%;
+  margin: auto;
 
 }
 
 .contain {
-  display: flex;
+
   height: 100vh;
+
+display: flex;
   justify-content: center;
 flex-grow: 2;
-  max-width: 100%;
-
  
 
 
@@ -138,7 +140,8 @@ flex-grow: 2;
   padding: 40px;
   line-height: 25px;
   font-size: 12pt;
-  width: 400px;
+  width: 40vw;
+  height: 80vh;
   background-color: white;
   height: auto;
     max-height: fit-content;
@@ -206,9 +209,8 @@ caption {
 }
 
 .img-1 {
-   max-height: fit-content;
-   max-width: 400px;
-  padding: 400px;
+  height: 80vh;
+  width: 53vw;
   background-image: url(ss1.png);
   background-size: contain;
    background-repeat: no-repeat;
@@ -220,9 +222,8 @@ caption {
 }
 
 .img-2 {
-  height: auto;
-  width: 750px;
-  padding: 250px;
+   height: 73vh;
+  width: 53vw;
   background-image: url(d1.png);
    background-repeat: no-repeat;
   background-size: cover;
@@ -234,9 +235,8 @@ caption {
 }
 
 .img-3 {
-  height: auto;
-  width: 750px;
-  padding: 250px;
+  height: 70vh;
+  width: 53vw;
   background-image: url(tp1.png);
    background-repeat: no-repeat;
   background-size: cover;
@@ -248,9 +248,8 @@ caption {
 }
 
 .img-4 {
-  height: auto;
-  width: 750px;
-  padding: 250px;
+  height: 74vh;
+  width: 53vw;
   background-image: url(u1.png);
    background-repeat: no-repeat;
   background-size: cover;
