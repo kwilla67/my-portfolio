@@ -91,6 +91,7 @@ article {
   align-items: center;
   justify-content: center;
   padding: 100px;
+ 
 
 
 }
@@ -201,7 +202,7 @@ caption {
 }
 
 .img-1 {
-  height: 200px;
+  height: auto;
   width: 750px;
   padding: 250px;
   background-image: url(ss1.png);
@@ -215,7 +216,7 @@ caption {
 }
 
 .img-2 {
-  height: 200px;
+  height: auto;
   width: 750px;
   padding: 250px;
   background-image: url(d1.png);
@@ -229,7 +230,7 @@ caption {
 }
 
 .img-3 {
-  height: 200px;
+  height: auto;
   width: 750px;
   padding: 250px;
   background-image: url(tp1.png);
@@ -243,7 +244,7 @@ caption {
 }
 
 .img-4 {
-  height: 200px;
+  height: auto;
   width: 750px;
   padding: 250px;
   background-image: url(u1.png);
