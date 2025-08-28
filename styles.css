@@ -44,7 +44,7 @@
 .nav-list {
   list-style: none;
   background-color: white;
-  min-width: 100%;
+  max-width: 100%;
   border-radius: 25px;
 
 }
@@ -73,7 +73,7 @@ h1 {
 }
 /**ROW 1**/
 .header {
-  height: 91.75vh;
+  height: 1000px;
   background-image: url(header.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -81,16 +81,17 @@ h1 {
 
 /**ROW 2**/
 article {
-  height: 400vh;
+
 
 }
 
 .contain {
   display: flex;
   height: 100vh;
-  align-items: center;
   justify-content: center;
-  padding: 100px;
+flex-grow: 2;
+  max-width: 100%;
+
  
 
 
@@ -140,8 +141,10 @@ article {
   width: 400px;
   background-color: white;
   height: auto;
+    max-height: fit-content;
   border-radius: 6%;
   text-align: right;
+  max-width: 100%;
   
 }
 
@@ -152,6 +155,7 @@ article {
   width: 400px;
   background-color: white;
   height: auto;
+  max-height: fit-content;
   border-radius: 6%;
   text-align: left;
 }
@@ -202,9 +206,9 @@ caption {
 }
 
 .img-1 {
-  height: auto;
-  width: 750px;
-  padding: 250px;
+   max-height: fit-content;
+   max-width: 400px;
+  padding: 400px;
   background-image: url(ss1.png);
   background-size: contain;
    background-repeat: no-repeat;
