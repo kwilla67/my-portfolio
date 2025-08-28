@@ -26,7 +26,6 @@
   list-style: none;
   display: inline-block;
   padding: 15px;
-  padding-left: 150px;
   font-size: 10pt;
   background-color: white;
   border-radius: 25px;
@@ -59,20 +58,25 @@ h1 {
   display: inline;
   background-color: white;
   border-radius: 25px;
-  padding-left: 55px;
+
 }
 
 .nav-list a {
   color: #332a2a;
   background-color: white;
-  padding-left: 75px;
+  padding-left: 20px;
 }
 
+.nav-list a:hover {
+  color: grey;
+  
+}
 /**ROW 1**/
 .header {
   height: 91.75vh;
   background-image: url(header.png);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /**ROW 2**/
@@ -88,30 +92,39 @@ article {
   justify-content: center;
   padding: 100px;
 
+
 }
 
 .h2-1 {
   padding: 28px;
   background-image: url(h2-1.png);
   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: white;
 }
 
 .h2-2 {
   padding: 46px;
   background-image: url(h2-2.png);
   background-size: contain;
+   background-repeat: no-repeat;
+     background-color: white;
 }
 
 .h2-3 {
   padding: 47px;
   background-image: url(h2-3.png);
   background-size: contain;
+   background-repeat: no-repeat;
+     background-color: white;
 }
 
 .h2-4 {
   padding: 33px;
   background-image: url(h2-4.png);
   background-size: contain;
+   background-repeat: no-repeat;
+     background-color: white;
 }
 
 
@@ -125,9 +138,10 @@ article {
   font-size: 12pt;
   width: 400px;
   background-color: white;
-  height: 500px;
+  height: auto;
   border-radius: 6%;
   text-align: right;
+  
 }
 
 .paragraph-2 {
@@ -136,7 +150,7 @@ article {
   font-size: 12pt;
   width: 400px;
   background-color: white;
-  height: 500px;
+  height: auto;
   border-radius: 6%;
   text-align: left;
 }
@@ -153,27 +167,37 @@ caption {
 .skills-1 {
   background-image: url(skills1.png);
   background-size: contain;
+   background-repeat: no-repeat;
   padding: 93px;
+    background-color: white;
+
 }
 
 .skills-2 {
   background-image: url(skills2.png);
   background-size: contain;
+   background-repeat: no-repeat;
   padding: 90px;
+    background-color: white;
 
 }
 
 .skills-3 {
   background-image: url(skills3.png);
   background-size: contain;
+   background-repeat: no-repeat;
   padding: 105px;
+    background-color: white;
 
 }
 
 .skills-4 {
   background-image: url(skills4.png);
   background-size: contain;
+   background-repeat: no-repeat;
   padding: 93px;
+    background-color: white;
+  
 }
 
 .img-1 {
@@ -182,6 +206,7 @@ caption {
   padding: 250px;
   background-image: url(ss1.png);
   background-size: contain;
+   background-repeat: no-repeat;
   border-radius: 6%;
 }
 
@@ -194,6 +219,7 @@ caption {
   width: 750px;
   padding: 250px;
   background-image: url(d1.png);
+   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6%;
 }
@@ -207,6 +233,7 @@ caption {
   width: 750px;
   padding: 250px;
   background-image: url(tp1.png);
+   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6%;
 }
@@ -220,6 +247,7 @@ caption {
   width: 750px;
   padding: 250px;
   background-image: url(u1.png);
+   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6%;
 }
